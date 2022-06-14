@@ -5,9 +5,22 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
 /* regole debug  */
 .debug * {
     border: solid red 3px;
+    padding: 10px;
+}
+
+.debug .button {
+    border: solid blue 3px;
     padding: 10px;
 }
 
@@ -15,6 +28,8 @@ body {
     background-color: rgb(235, 235, 235);
     font-family: 'Roboto';
 }
+
+/* regole header */
 
 #main-header {
     background-color: white;
@@ -30,4 +45,64 @@ body {
 
 .logo {
     vertical-align: middle;
+}
+
+/* regole main */
+
+.container {
+max-width: 800px;
+margin: 0px auto;
+background-color: white;
+padding-left: 45px;
+}
+
+.header {
+    margin-top: 45px;
+    margin-bottom: 2px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.button {
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+
+#task-button {
+    background-color: rgb(107, 200, 237);
+    color: white;
+}
+#section-button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(212, 212, 212);
+    border: solid rgb(212, 212, 212) 1px ;
+}
+
+.title-row {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.title {
+    display: inline-block;
+}
+
+.icon {
+    border-radius: 50%;
+    text-align: right;
+    padding: 2px;
+    margin-right: 5px;
+}
+
+.green {
+    color: green;
+    border: solid green 1px;
 }
