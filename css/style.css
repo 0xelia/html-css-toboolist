@@ -54,6 +54,8 @@ max-width: 800px;
 margin: 0px auto;
 background-color: white;
 padding-left: 45px;
+border-bottom-left-radius: 5px ;
+border-bottom-right-radius: 5px ;
 }
 
 .header {
@@ -87,7 +89,7 @@ padding-left: 45px;
 }
 
 .title-row {
-    padding-top: 10px;
+    padding-top: 35px;
     padding-bottom: 10px;
 }
 
@@ -98,11 +100,65 @@ padding-left: 45px;
 .icon {
     border-radius: 50%;
     text-align: right;
-    padding: 2px;
-    margin-right: 5px;
+    padding: 2px 4px;
+    margin-right: 10px;
 }
 
 .green {
     color: green;
     border: solid green 1px;
 }
+
+.red {
+    color: red;
+    border: solid red 1px;
+}
+
+.list {
+    margin-top: 20px;
+}
+
+.title-row li {
+    margin: 10px 0;
+}
+
+.chores {
+    display: inline-block;
+    font-size: 14px;
+}
+
+/* badge and colors */
+
+ .badge {
+    display: inline-block;
+    font-size: 10px;
+    text-align: center;
+    width: 80px;
+    border-radius: 10px;
+    padding: 6px 2px;
+    color: white;
+ }
+
+ .editorilas {
+     background-color: skyblue;
+ }
+
+ .goals {
+     background-color: blueviolet;
+ }
+
+ .recruiting {
+     background-color: rgb(19, 167, 54);
+ }
+
+ .mobile {
+     background-color: orange;
+ }
+
+ .website {
+     background-color: violet;
+ }
+
+ .sales {
+     background-color: lightgreen;
+ }
